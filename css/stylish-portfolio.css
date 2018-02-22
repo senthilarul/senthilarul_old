@@ -389,9 +389,35 @@ a:hover, a:focus, a:active {
   right: 0;
 }
 
-#popup-article:target{
+
+#popup-article1:target{
   display: flex;
 }
+#popup-article2:target{
+  display: flex;
+}
+#popup-article3:target{
+  display: flex;
+}
+#popup-article4:target{
+  display: flex;
+}
+#popup-article5:target{
+  display: flex;
+}
+#popup-article6:target{
+  display: flex;
+}
+#popup-hob1:target{
+  display: flex;
+}
+#popup-hob2:target{
+  display: flex;
+}
+#popup-hob3:target{
+  display: flex;
+}
+
 
 .popup:before{
   content: "";

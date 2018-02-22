@@ -13,7 +13,31 @@ body,html{width:100%;height:100%}body{font-family:'Source Sans Pro'}.btn-xl{padd
   right: 0;
 }
 
-#popup-article:target{
+#popup-article1:target{
+  display: flex;
+}
+#popup-article2:target{
+  display: flex;
+}
+#popup-article3:target{
+  display: flex;
+}
+#popup-article4:target{
+  display: flex;
+}
+#popup-article5:target{
+  display: flex;
+}
+#popup-article6:target{
+  display: flex;
+}
+#popup-hob1:target{
+  display: flex;
+}
+#popup-hob2:target{
+  display: flex;
+}
+#popup-hob3:target{
   display: flex;
 }
 

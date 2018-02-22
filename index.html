@@ -107,15 +107,16 @@
     </section>
       
     <!-- Callout -->
+    <!--  
     <section class="callout">
       <div class="container text-center">
         <h2 class="mx-auto mb-5">Welcome to
           <em>your</em>
           next website!</h2>
-        <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+        <a class="btn btn-primary btn-xl" href="img/EEGicon.png" download="EEGicon.png">Download Now!</a>
       </div>
     </section>
-
+    -->
     <!-- Portfolio -->
     <section class="content-section" id="portfolio">
       <div class="container">
@@ -124,8 +125,9 @@
           <h2 class="mb-5">Projects</h2>
         </div>
         <div class="row no-gutters">
+            
           <div class="col-lg-6">
-            <a class="portfolio-item" href="projects/mcmaster/RMAL.html" >
+            <a class="portfolio-item" href="#popup-article1" >
               <span class="caption" >
                 <span class="caption-content">
                   <h2>Robotics and Manufacturing Automation Laboratory</h2>
@@ -136,23 +138,21 @@
               <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
             </a>
           </div>
+            
           <div class="col-lg-6">
-            <a class="portfolio-item"  class="page__container" href="#popup-article">
+            <a class="portfolio-item"  class="page__container" href="#popup-article2">
               <span class="caption">
                 <span class="caption-content">
                   <h2>National Institute of Technology, Tiruchirappalli</h2>
                   <p class="mb-0">Automatic System for the Removal of Artifacts from EEG Signals using Independent Component Analysis and Hurst Exponent</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/EEGicon.png" alt="" height = "700" width = "484">
+              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
             </a>
           </div>
-                     
-            
-            
             
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="#popup-article3">
               <span class="caption">
                 <span class="caption-content">
                   <h2>National Institute of Technology, Tiruchirappalli</h2>
@@ -162,8 +162,9 @@
               <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
             </a>
           </div>
+            
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="#popup-article4">
               <span class="caption">
                 <span class="caption-content">
                   <h2>National Institute of Technology, Tiruchirappalli</h2>
@@ -173,8 +174,9 @@
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
             </a>
           </div>
+            
           <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            <a class="portfolio-item" href="#popup-article5">
               <span class="caption">
                 <span class="caption-content">
                   <h2>Health-care Technology Innovation Centre</h2>
@@ -184,8 +186,9 @@
               <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
             </a>
           </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            
+          <div class="col-lg-6"  id = "art6">
+            <a class="portfolio-item" href="#popup-article6">
               <span class="caption">
                 <span class="caption-content">
                     <h2>National Institute of Technology, Tiruchirappalli</h2>
@@ -209,8 +212,9 @@
           <h2 class="mb-5">Hobby Projects</h2>
         </div>
         <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            
+          <div class="col-lg-6" id="hob1">
+            <a class="portfolio-item" href="#popup-hob1">
               <span class="caption">
                 <span class="caption-content">
                   <h2>University of Maryland, College Park</h2>
@@ -220,8 +224,9 @@
               <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
             </a>
           </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            
+          <div class="col-lg-6" id="hob2">
+            <a class="portfolio-item" href="#popup-hob2">
               <span class="caption">
                 <span class="caption-content">
                   <h2>University of Maryland, College Park</h2>
@@ -231,8 +236,9 @@
               <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
             </a>
           </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="#">
+            
+          <div class="col-lg-6" id="hob3">
+            <a class="portfolio-item" href="#popup-hob3">
               <span class="caption">
                 <span class="caption-content">
                   <h2>National Institute of Technology, Tiruchirappalli</h2>
@@ -242,14 +248,16 @@
               <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
             </a>
             </div>
+            
         </div>
       </div>
-
+<!--
       <div class="container text-center">
         <h2 class="mb-4">The buttons below are impossible to resist...</h2>
         <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
         <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
       </div>
+-->
     </section>
 
     <!-- Map -->
@@ -261,14 +269,131 @@
       </small>
     </section>
 
+    <!-- Modals-->  
+    <div id="popup-article1" class="popup">
+      <div class="popup__block">
+        <h1>Software Development for Autonomous Collaborative Robotics Arm</h1> 
+        <h5>Research Intern, Robotics and Manufacturing Automation Laboratory</h5>  
+        <h5>Project Guide: Dr. Gary Bone, Professor, McMaster University</h5>
+        
+        <p>Robotic arms that can operate safely and collaborate with humans will enable many new applications for robots. The arm is equipped with a Kinect v2 RGB-D sensor that provides real-time image and depth data. The objective was to design, program and experimentally test software for guiding the robotic arm around obstacles while it assists people by grasping and manipulating tools and household objects. In addition the robot also implements an autonomous grasping algorithm to identify and pick objects in a workspace. This algorithm deals with identifying the desired object and deciding on the direction of the grasp and motion planning to lift the same. The project deals with ideas of 3d imaging, inverse kinematics, path planning, obstacle avoidance etc.</p>
+        <a href="index.html" class="popup__close">close</a>
+      </div>
+    </div>
       
-      <div id="popup-article" class="popup">
-  <div class="popup__block">
-    
-    <a href="index.html" class="popup__close">close</a>
-  </div>
-</div>
+    <div id="popup-article2" class="popup">
+      <div class="popup__block">
+        <h1>Automatic System for the Removal of Artifacts from EEG Signals using Independent Component Analysis and Hurst Exponent</h1>
+        <hr>
+        <h5>Project Guide: Dr. V.Sridevi, Asst. Professor,  National Institute of Technology, Tiruchirappalli</h5> 
+        <br>
+        <p>Epilepsy is a neurological disorder marked by sudden recurrent episodes of sensory disturbances, loss of consciousness or convolutions associated with abnormal electrical activity in the brain. Electroencephalogram (EEG) is a diagnostic tool used to pickup the electrical activity of the brain. The scalp EEG signals are mainly affected by artifacts which are generated by physiological and non-physiological activities, such as eye blinks, muscle movements and electrical noises respectively. The removal of these artifacts will improve the performance of the automatic epilepsy detection system.</p>
+          
+        <p>This project focuses on the removal of the physiological artifacts with the help of Independent component analysis (ICA). The Independent component analysis is a statistical and computational technique for revealing hidden factors that underlie sets of random variables, measurements or signals. It decomposes the original signal into its compo- nent signals, arising from different sources. After the decomposition, the removal of unwanted signal is done by Hurst exponent with the values in the range of 0.58-0.66. The components that have values corresponding to artifact are removed and the signal is reconstructed. In order to validate the performance of the algorithm, a time-energy analysis of the signal is made for comparing the artifact-removed signal with the raw signal in order to improve the performance of the Epilepsy detection system.</p>
+        <h5>Results:</h5>
+        <center><img src ="projects/eegica.png" height="600">
+          <h6> 21-Channel EEG data split into independent components using ICA</h6>
+            <img src="projects/eeghurst.png" height = "600">
+            <h6>EEG channel data after removing noise components using Hurst exponent</h6>
+            </center>
+        <p></p>  
+        <p>Keywords: Epilepsy, EEG, artifact removal, Independent component analysis, Hurst exponent</p>
+          
+        <a href="index.html" class="popup__close">close</a>
+      </div>
+    </div>
       
+    <div id="popup-article3" class="popup">
+      <div class="popup__block">
+      <h1>Realtime 3D Object Reconstruction using Microsoft Kinect</h1>
+      <hr>
+      <h5>Project Guide: <a href="https://www.nitt.edu/home/academics/departments/cse/faculty/leela/">Dr. R. Leela Velusamy, Faculty Advisor Spider R&D, National Institute of Technology, Tiruchirappalli</a></h5> 
+      <br>
+      <left><img src="projects/kinect1.png" height = 320 width = 450></left> 
+      <img src="projects/kinect2.png" height = 320 width = 450 align=right>      
+      <p>
+          Hellp
+      </p>
+        <a href="index.html" class="popup__close">close</a>
+      </div>
+    </div>
+      
+    <div id="popup-article4" class="popup">
+      <div class="popup__block">
+          <h1>Pest Detection using Acoustic and Image Processing Methods</h1>
+          <hr>
+          <h5>Project Guide: <a href="https://www.nitt.edu/home/academics/departments/ice/faculty/bennet/">Mr. Goldin R. Bennet, Associate Professor, National Institute of Technology, Tiruchirappalli</a></h5>
+          <br>
+          <p>gggg</p>
+
+        <a href="index.html" class="popup__close">close</a>
+      </div>
+    </div>
+      
+     <div id="popup-article5" class="popup">
+      <div class="popup__block">
+        <h1>Analog Frond End for Multi-channel Data Acquisition</h1>
+        <hr>
+        <h5>Project Guide: Mr. Malay Shah, Lead Design Engineer, <a href="https://htic.iitm.ac.in/people.html">HTIC</a></h5>
+        <br>
+        <p>ffff</p>  
+        <a href="index.html" class="popup__close">close</a>
+      </div>
+    </div>     
+      
+    <div id="popup-article6" class="popup">
+      <div class="popup__block">
+        <h1>Smart Jacket for Infant Monitoring</h1>
+        <hr>
+        <h5>Project Guide: <a href="https://www.nitt.edu/home/academics/departments/ece/faculty/bvenki/">Dr. B. Venkatramani, Professor (HAG), National Institute of Technology - Tiruchirappalli</a></h5>  
+        <a href="#art6" class="popup__close">close</a>
+      </div>
+    </div>
+
+<!-- Hobby Project-->
+    <div id="popup-hob1" class="popup">
+      <div class="popup__block">
+        <h1>Q-Learning Obstacle Avoidance for Turtlebot</h1>
+        <hr>
+        <h5>Link to GitHub Repo: <a href="https://github.com/senthilarul/QLearning-ENPM808X">Q-learning</a></h5> 
+        <br>  
+        <h5>Overview:</h5>
+          <p>Autonomous robots are the next big thing influencing the tech industry. With tech majors such as google, amazon and apple investing heavily on autonomous tech it is certain that such robots a going to majorly impact our life in the near future.</p>
+        <center><img src="projects/qlearn.png" width = "800"></center>
+          <br>
+        <p>When a robot is in an unexplored environment, it does not know the set of best actions to perform for that environment in order to navigate autonomously without colliding. In this software we are taking the example of a turtlebot navigating a maze. While the Turtlebot is in the operating environment, it is nearly impossible to define all possible states, and actions for those states, prior to navigating the full environment. Even if such a case is possible, it may not generalize well for a new environment. Under these circumstances, training the agent with a sequence of rewards for the random actions that it performs, is much easier. This is where Q learning comes into play. The agent is positively rewarded when it performs a desirable actions (not colliding with obstacles), given a state. Similarly, it is negatively rewarded when it performs an undesirable action (like colliding with an obstacle). While using rewards as a learning input, it is easy to define a numerical evaluation function over all states and actions, and base the optimal policy on this evaluation function.</p>
+        <p>This project implements a Qlearning algorithm for training a turtlebot to navigate inside a maze (created on gazebo) by avoiding obstacles.</p>  
+
+        <a href="#hob1" class="popup__close">close</a>
+      </div>
+    </div>
+      
+    <div id="popup-hob2" class="popup">
+      <div class="popup__block">
+        <h1>A* Path Planning</h1>
+        <hr>
+        <h5>Link to GitHub Repo: <a href="https://github.com/senthilarul/Midterm-APathPlanning">A* Path Planning</a></h5>
+        <br>
+        <img src="projects/astar1.png" width ="700">
+        <img src="projects/astar2.png" width="400">   
+        <p>The github repository implements a software for path planning that aids an warehouse robot in the autonomous navigation. This is developed using C++ for ACME Robotics (A fictional situation for the ENPM808X Midterm project).</p>
+        <p>A* Path planning algorithm is very effective for known environment. In this project I am approximating the warehouse robot to operate in such an environment.</p>
+          
+        <p>The algorithm is similar to Djikstra's algorithm except for the fact that the total cost is a combination of cost/distance of the current node to the start node (Path cost) and current node to the goal node (heuristic cost). In this implementation I am assuming the robot can travel only in 4 directions, namely North, East, South and West. The path cost of traveling to an adjacent node in the above mentioned direction is set to 1. The Heuristic cost is calculated by the straight line distance between the current node and the goal node.</p>
+        <p>The total cost is calculated as a combination of path cost + 0.1 * heusristic cost.</p>
+        <p>A weight of 0.1 is multiplied to the heuristic cost to prevent this cost from over powering the total cost (it the becomes similar to greedy best search).</p>  
+        <a href="#hob2" class="popup__close">close</a>
+      </div>
+    </div>      
+
+    <div id="popup-hob3" class="popup">
+      <div class="popup__block">
+        <h1>A* Path Planning</h1>
+        <hr>
+        
+        <a href="#hob3" class="popup__close">close</a>
+      </div>
+    </div> 
       
     <!-- Footer -->
     <footer class="footer text-center">
@@ -285,12 +410,12 @@
             </a>
           </li>
           <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
+            <a class="social-link rounded-circle text-white" href="https://github.com/senthilarul">
               <i class="icon-social-github"></i>
             </a>
           </li>
         </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Your Website 2017</p>
+        <p class="text-muted small mb-0">Copyright &copy; Senthil Hariharan Arul 2017</p>
       </div>
     </footer>
 
